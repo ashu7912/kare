@@ -119,8 +119,9 @@ button {
 	border-color: $gray-9;
 
 	&:hover {
-		background: $primary;
-		border-color: $primary;
+		background: $secondary;
+		border-color: $secondary;
+		color: $gray-9 !important;
 	}
 
 }

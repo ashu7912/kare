@@ -2932,8 +2932,9 @@ button {
   border-color: #02465E;
 }
 .btn-dark:hover {
-  background: #38AAC4;
-  border-color: #38AAC4;
+  background: yellow;
+  border-color: yellow;
+  color: #02465E !important;
 }
 
 .btn:not(:disabled):not(.disabled).active:focus {
@@ -4667,12 +4668,12 @@ ul.category-list li a:after {
 }
 
 .navbar-brand {
-  padding: 20px 0px;
+  padding: 0px 0px;
   margin-right: 0;
 }
 
 .navbar-brand img {
-  height: 40px;
+  height: 100px;
 }
 
 .navbar .navbar-brand {
@@ -4866,10 +4867,6 @@ ul.category-list li a:after {
 
 .header.sticky-top .topbar {
   display: none;
-}
-
-.header.sticky-top .navbar-brand {
-  padding: 15px 0px;
 }
 
 /* Header Style 02 */
@@ -5497,6 +5494,11 @@ ul.category-list li a:after {
   color: #ffffff;
   font-size: 72px;
   line-height: 82px;
+  margin-bottom: 20px;
+}
+
+.banner h2 {
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -6467,7 +6469,7 @@ ul.category-list li a:after {
   z-index: 100;
   color: white;
   transform: rotate(20deg);
-  opacity: 0.3;
+  opacity: 0.1;
   top: 60px;
 }
 

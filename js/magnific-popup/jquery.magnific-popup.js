@@ -1571,8 +1571,10 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 	options: {
 		markup: '<div class="mfp-iframe-scaler">'+
 					'<div class="mfp-close"></div>'+
-					'<iframe class="mfp-iframe" src="//about:blank" frameborder="0" allowfullscreen></iframe>'+
+					'<iframe class="mfp-iframe" src="https://about:blank" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'+
 				'</div>',
+
+				// <iframe width="560" height="315" src="https://www.youtube.com/embed/ipxlMJn8lzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 		srcAction: 'iframe_src',
 
@@ -1581,7 +1583,7 @@ $.magnificPopup.registerModule(IFRAME_NS, {
 			youtube: {
 				index: 'youtube.com',
 				id: 'v=',
-				src: '//www.youtube.com/embed/%id%?autoplay=1'
+				src: 'https://www.youtube.com/embed/%id%?autoplay=1'
 			},
 			vimeo: {
 				index: 'vimeo.com/',
