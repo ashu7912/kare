@@ -66,6 +66,8 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 @import "typography";
 @import "helpers";
 
+@import "mixins";
+
 // Shortcodes
 @import "shortcodes/accordion";
 @import "shortcodes/feature-info";
@@ -99,3 +101,6 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 // Responsive
 @import "responsive";
+
+// Custom StyleSheet
+@import "custom-home";
