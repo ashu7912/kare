@@ -16,5 +16,45 @@
         top: 60px;
     }
   }
+
+  .h-400{
+      height: 400px;
+  }
+
+  .pt-100{
+      padding-top: 100px;
+  }
+  .p-40{
+      padding: 40px;
+  }
+  .btn-med-pad{
+      padding: 12px 22px;
+  }
+
+  .volunteer-sec{
+    &-inner{
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    &-gradient{
+        @include gradient(top, $white_to_opac);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    &-overlay{
+        background-color: $dark-overlay;
+        h2, h5, h6{
+            color: $white !important;
+        }
+    }
+  }
+
+  .sponsor-sec{
+    &-anchor{
+
+    }
+  }
   
   // -----------------------
