@@ -50,11 +50,11 @@
         }
     }
   }
-
-  .sponsor-sec{
-    &-anchor{
-
+.home-slider{
+    &-overlay{
+        background: rgba(0,116,163,0.6);
+        border-radius: 3em;
     }
-  }
+}
   
   // -----------------------

@@ -69,6 +69,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 @import "mixins";
 
 // Shortcodes
+
 @import "shortcodes/accordion";
 @import "shortcodes/feature-info";
 @import "shortcodes/team";
@@ -104,3 +105,4 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 
 // Custom StyleSheet
 @import "custom-home";
+@import "kare-font";

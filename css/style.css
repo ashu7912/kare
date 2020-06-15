@@ -880,7 +880,6 @@ hr.light-bg {
   z-index: 1;
 }
 .bg-overlay-black-30:before {
-  background: rgba(2, 49, 76, 0.3);
   content: "";
   height: 100%;
   left: 0;
@@ -6508,6 +6507,89 @@ ul.category-list li a:after {
 }
 .volunteer-sec-overlay h2, .volunteer-sec-overlay h5, .volunteer-sec-overlay h6 {
   color: #ffffff !important;
+}
+
+.home-slider-overlay {
+  background: rgba(0, 116, 163, 0.6);
+  border-radius: 3em;
+}
+
+@font-face {
+  font-family: "kare-font-icon";
+  src: url("../fonts/font-icons/kare-font-icon.eot?17uz5t");
+  src: url("../fonts/font-icons/kare-font-icon.eot?17uz5t#iefix") format("embedded-opentype"), url("../fonts/font-icons/kare-font-icon.ttf?17uz5t") format("truetype"), url("../fonts/font-icons/kare-font-icon.woff?17uz5t") format("woff"), url("../fonts/font-icons/kare-font-icon.svg?17uz5t#kare-font-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=kare-], [class*=" kare-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "kare-font-icon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kare-bird_01:before {
+  content: "";
+}
+
+.kare-bone:before {
+  content: "";
+}
+
+.kare-bubbles_01:before {
+  content: "";
+}
+
+.kare-Bull:before {
+  content: "";
+}
+
+.kare-cat:before {
+  content: "";
+}
+
+.kare-catpawn:before {
+  content: "";
+}
+
+.kare-dog:before {
+  content: "";
+}
+
+.kare-dog_house:before {
+  content: "";
+}
+
+.kare-dogfood_bowl:before {
+  content: "";
+}
+
+.kare-Horse:before {
+  content: "";
+}
+
+.kare-overlay_01:before {
+  content: "";
+}
+
+.kare-overlay_02:before {
+  content: "";
+}
+
+.kare-overlay_03:before {
+  content: "";
+}
+
+.kare-overlay_04:before {
+  content: "";
 }
 
 /*# sourceMappingURL=style.css.map */
