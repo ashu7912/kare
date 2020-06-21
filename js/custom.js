@@ -279,8 +279,8 @@ POTENZA.swiperAnimation = function () {
           },
             // Navigation arrows
             navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
+              nextEl: '.swiper-btn-next',    // ---- It was swiper-button-next
+              prevEl: '.swiper-btn-prev',    // ---- It was swiper-button-prev
             },
           on: {
             init: function() {

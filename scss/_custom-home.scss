@@ -7,14 +7,95 @@
         position: relative;
     }
     &-icon{
-        position: absolute;
-        @include font-size(300px);
-        z-index: 100;
-        color: white;
-        transform: rotate(20deg);
-        opacity: 0.1;
-        top: 60px;
+        // z-index: 1;
+        display: flex;
+            &-paw{
+                position: absolute;
+                @include font-size(250px);
+                top: 60px;
+                left: 20px;
+            }
+            &-cat{
+                left: 10%;
+            }
+            &-bowl{
+                // left: 10%;
+                font-size: 150px;
+                right: 0;
+                position: absolute;
+                bottom: -38px;
+            }
+            &-dog{
+                right: 10%;
+                bottom: -18px;
+            }
+            &-shape1{
+                font-size: 180px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+            &-shape2{
+                font-size: 210px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+            &-bone1{
+                top: 50%;
+                transform: translateY(-50%);
+                position: absolute;
+                left: 25%;
+                font-size: 50px;
+            }
+            &-bird1{
+                top: 60px;
+                position: absolute;
+                left: 10%;
+                font-size: 110px;
+            }
+            &-sponsor1{
+                top: 220px;
+                position: absolute;
+                left: -90px;
+                font-size: 220px;
+            }
     }
+    &-bg{
+        &-dark{
+            color: $overlay-1;
+        }
+        &-lblue{
+            color: $primary-light;
+        }
+        &-lighterBlue{
+            color: $primary-lighter;
+        }
+        &-lpink{
+            color: $pink-light;
+        }
+    }
+  }
+
+  .overlay-welcome{
+    position: absolute;
+    top: -2px;
+    z-index: 4;
+    width: 100%;
+    right: 0;
+}
+
+  .overlay-half-bg{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .overlay-icon-cat, .overlay-icon-dog{   
+    position: absolute;
+    font-size: 150px;
   }
 
   .h-400{
@@ -30,7 +111,24 @@
   .btn-med-pad{
       padding: 12px 22px;
   }
-
+  .z-0{
+      z-index: 0;
+  }
+  .z-1{
+      z-index: 1;
+  }
+  .z-2{
+      z-index: 2;
+  }
+  .z-3{
+      z-index: 3;
+  }
+  .top-0{
+      top: 0;
+  }
+  .bottom-0{
+      bottom: 0;
+  }
   .volunteer-sec{
     &-inner{
         position: relative;
@@ -56,5 +154,43 @@
         border-radius: 3em;
     }
 }
-  
+.swiper-btn-prev, .swiper-btn-next{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 3rem;
+    background-color: $primary-bright;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.swiper-icon-prev, .swiper-icon-next{
+    position: absolute;
+    color: $white;
+}
+.swiper{
+    &-btn{
+        &-prev{
+            left: 0;
+            transform: translate(-50%, -50%);
+        }
+        &-next{
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+    }
+    &-icon{
+        &-prev{
+            right: 10px;
+        }
+        &-next{
+            left: 10px;
+        }
+    }
+}
+
+
   // -----------------------
