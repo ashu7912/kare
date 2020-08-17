@@ -8,9 +8,9 @@
     }
     &-icon{
         // z-index: 1;
+        position: absolute;
         display: flex;
             &-paw{
-                position: absolute;
                 @include font-size(250px);
                 top: 60px;
                 left: 20px;
@@ -22,7 +22,6 @@
                 // left: 10%;
                 font-size: 150px;
                 right: 0;
-                position: absolute;
                 bottom: -38px;
             }
             &-dog{
@@ -31,34 +30,34 @@
             }
             &-shape1{
                 font-size: 180px;
-                position: absolute;
                 bottom: 0;
                 left: 0;
             }
             &-shape2{
                 font-size: 210px;
-                position: absolute;
                 top: 0;
                 right: 0;
             }
             &-bone1{
                 top: 50%;
                 transform: translateY(-50%);
-                position: absolute;
                 left: 25%;
                 font-size: 50px;
             }
             &-bird1{
                 top: 60px;
-                position: absolute;
                 left: 10%;
                 font-size: 110px;
             }
             &-sponsor1{
                 top: 220px;
-                position: absolute;
                 left: -90px;
                 font-size: 220px;
+            }
+            &-horse{
+                top: 220px;
+                right: -90px;
+                font-size: 280px;
             }
     }
     &-bg{
@@ -194,3 +193,11 @@
 
 
   // -----------------------
+
+
+
+//   Header For Our team 
+
+.header-inner .header-inner-nav.page-menu-top {
+    top: 100px;
+}

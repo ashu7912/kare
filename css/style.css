@@ -6463,10 +6463,10 @@ ul.category-list li a:after {
   position: relative;
 }
 .overlay-icon {
+  position: absolute;
   display: flex;
 }
 .overlay-icon-paw {
-  position: absolute;
   font-size: 250px;
   top: 60px;
   left: 20px;
@@ -6477,7 +6477,6 @@ ul.category-list li a:after {
 .overlay-icon-bowl {
   font-size: 150px;
   right: 0;
-  position: absolute;
   bottom: -38px;
 }
 .overlay-icon-dog {
@@ -6486,34 +6485,34 @@ ul.category-list li a:after {
 }
 .overlay-icon-shape1 {
   font-size: 180px;
-  position: absolute;
   bottom: 0;
   left: 0;
 }
 .overlay-icon-shape2 {
   font-size: 210px;
-  position: absolute;
   top: 0;
   right: 0;
 }
 .overlay-icon-bone1 {
   top: 50%;
   transform: translateY(-50%);
-  position: absolute;
   left: 25%;
   font-size: 50px;
 }
 .overlay-icon-bird1 {
   top: 60px;
-  position: absolute;
   left: 10%;
   font-size: 110px;
 }
 .overlay-icon-sponsor1 {
   top: 220px;
-  position: absolute;
   left: -90px;
   font-size: 220px;
+}
+.overlay-icon-horse {
+  top: 220px;
+  right: -90px;
+  font-size: 280px;
 }
 .overlay-bg-dark {
   color: #0E5375;
@@ -6647,6 +6646,10 @@ ul.category-list li a:after {
 }
 .swiper-icon-next {
   left: 10px;
+}
+
+.header-inner .header-inner-nav.page-menu-top {
+  top: 100px;
 }
 
 @font-face {
